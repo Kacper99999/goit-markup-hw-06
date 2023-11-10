@@ -628,9 +628,14 @@ img{
 }
 
 .flex-footer-two{
-    display:flex;
-    flex-direction: column;
-    gap:20px;
+    color: var(--Light);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 
@@ -731,9 +736,8 @@ img{
     appearance: none;
 }
 
-.modal-checkbox > input[type = "checkbox"]:checked + svg{
+.modal-checkbox > input[type = "checkbox"]:checked + .modal-span{
     fill: transparent;
-    background-color: #31D0AA;
 }
 
 .modal-svg{
@@ -845,6 +849,18 @@ img{
 }
 
 
+.modal-footer-input{
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--Modal-background);
+    border-radius: 4px;
+    padding-left: 7px;
+    color: var(--White-background);
+}
 
+.flex > ::placeholder{
+    color: var(--White-background);
+}
 
 /*------------------------------------------------*/
