@@ -715,7 +715,15 @@ img{
 }
 
 .modal-span{
-    
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(26,47,66,0.4);
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: backgtound-color 250ms cubic-bezier(0.4,0,0.2,1);
+    fill: transparent;
 }
 
 
