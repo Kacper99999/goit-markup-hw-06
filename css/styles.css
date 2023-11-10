@@ -714,6 +714,11 @@ img{
     display: block;
 }
 
+.modal-span{
+    
+}
+
+
 .modal-svg{
     position: absolute;
     left: 16px;
