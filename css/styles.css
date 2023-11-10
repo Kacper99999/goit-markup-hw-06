@@ -727,8 +727,13 @@ img{
     
 }
 
-.modal-checkbox-input > input[type = "checkbox"]:checked + .modal-span{
-    background-color: #404BBF;
+.modal-checkbox > input[type = "checkbox"]{
+    appearance: none;
+}
+
+.modal-checkbox > input[type = "checkbox"]:checked + svg{
+    fill: transparent;
+    background-color: #31D0AA;
 }
 
 .modal-svg{
