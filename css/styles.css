@@ -790,6 +790,14 @@ img{
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1),border 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
+.modal-svg{
+    position: absolute;
+    left: 16px;
+    top:50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4,0,0.2,1);
+}
+
 .close-btn:hover{
     background-color: var(--Pressed-state);
     border: none;
@@ -858,5 +866,6 @@ img{
 .checkbox-input:checked + .checkbox > .modal-span{
     background-color: #31D0AA;
 }
+
 
 /*------------------------------------------------*/
