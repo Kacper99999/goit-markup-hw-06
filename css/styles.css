@@ -865,6 +865,7 @@ img{
 
 .checkbox-input:checked + .checkbox > .modal-span{
     fill: transparent;
+    background-color: var(--Primary-Brand);
 }
 
 
