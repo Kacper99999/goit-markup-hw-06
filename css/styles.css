@@ -870,7 +870,8 @@ img{
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.0em;
-    box-shadow:0px 4px 4px 0px rgba(0,0,0,0.15)
+    box-shadow:0px 4px 4px 0px rgba(0,0,0,0.15);
+    gap:24px;
 
 }
 
