@@ -810,6 +810,23 @@ img{
     fill: var(--White-background);
 }
 
+.footer-button{
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background-color:var(--Pressed-state);
+    color: var(--Accent);
+}
+
+.inline-flex{
+    display: inline-flex;
+    gap:24px;
+    align-items: center;
+    justify-content: center;
+}
 
 .modal-footer-input{
     width: 264px;
@@ -819,6 +836,7 @@ img{
     border-radius: 4px;
     padding-left: 7px;
     color: var(--White-background);
+    font-weight: 400;
 }
 
 .flex > ::placeholder{
@@ -857,14 +875,9 @@ img{
     transition: backgtound-color 250ms cubic-bezier(0.4,0,0.2,1) boreder 250ms cubic-bezier(0.4,0,0.2,1) fill 250ms cubic-bezier(0.4,0,0.2,1);
     display: inline-flex;
     background-color: var(--White-background);
-    
-    
-    
-    
 }
 
 .checkbox-input:checked + .checkbox > .modal-span{
-    fill: transparent;
     background-color: var(--Primary-Brand);
 }
 
