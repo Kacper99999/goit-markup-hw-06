@@ -669,6 +669,9 @@ img{
 
 }
 
+.modal-svg:focus{
+    fill:var(--Primary-Brand)
+}
 .modal-input{
     width: 100%;
     height: 40px;
@@ -920,8 +923,5 @@ img{
     background-color: var(--Primary-Brand);
 }
 
-.checkbox-input:checked + .modal-svg > path{
-    fill:#31D0AA;
-}
 
 /*------------------------------------------------*/
