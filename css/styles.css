@@ -856,6 +856,11 @@ img{
     justify-content: center;
 }
 
+.footer-label{
+    display: flex;
+    gap:24px;
+}
+
 .modal-footer-input{
     width: 264px;
     height: 40px;
@@ -869,7 +874,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.0em;
     box-shadow:0px 4px 4px 0px rgba(0,0,0,0.15);
-    margin-right:24px;
+    
 
 }
 
