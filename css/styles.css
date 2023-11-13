@@ -816,7 +816,7 @@ img{
     height: 40px;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -825,11 +825,13 @@ img{
     background-color: var(--Primary-Brand);
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 
 }
 
 .form-footer{
     display: flex;
+    gap:24px;
 
 }
 
@@ -856,10 +858,7 @@ img{
     justify-content: center;
 }
 
-.footer-label{
-    display: flex;
-    gap:24px;
-}
+
 
 .modal-footer-input{
     width: 264px;
@@ -867,12 +866,12 @@ img{
     background-color: transparent;
     border: 1px solid var(--White-background);
     border-radius: 4px;
-    padding-left: 7px;
+    padding-left: 16px;
     color: var(--White-background);
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-    letter-spacing: 0.0em;
+    letter-spacing: 0.04em;
     box-shadow:0px 4px 4px 0px rgba(0,0,0,0.15);
     
 
