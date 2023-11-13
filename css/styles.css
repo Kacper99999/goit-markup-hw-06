@@ -834,6 +834,8 @@ img{
 }
 
 .footer-label{
+    display: flex;
+    gap: 24px;
 }
 
 .footer-button-svg{
