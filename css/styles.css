@@ -803,7 +803,9 @@ img{
 }
 
 .modal-svg-two{
-    fill:#E7E9FC;
+    position: absolute;
+    
+    fill:red;
 }
 
 .modal-input:focus{
@@ -935,7 +937,7 @@ img{
     background-color: var(--Pressed-state);
     border: none;
     fill: var(--Light);
-    
+
 }
 
 
