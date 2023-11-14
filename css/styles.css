@@ -691,14 +691,18 @@ img{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46,47,46,0.4);
-    border: 1px solid rgba(46,47,46,0.4);
+    color: rgba(46,47,66,0.4);
+    border: 1px solid rgba(46,47,66,0.4);
     border-radius: 4px;
     background-color: transparent;
     padding: 8px 16px;
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.modal-textarea-input:focus{
+    border-color: var(--Primary-Brand);
 }
 
 
@@ -798,8 +802,12 @@ img{
     transition: fill 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
+.modal-svg-two{
+    fill:#E7E9FC;
+}
 
-.modal-svg:focus{
+.modal-input:focus{
+    border-color: var(--Primary-Brand);
     fill:var(--Primary-Brand)
 }
 
@@ -895,6 +903,7 @@ img{
 
 
 .checkbox-input{
+    visibility: hidden;
     display: none;
 }
 
@@ -915,14 +924,18 @@ img{
     border-radius: 2px;
     align-items: center;
     justify-content: center;
-    transition: backgtound-color 250ms cubic-bezier(0.4,0,0.2,1) boreder 250ms cubic-bezier(0.4,0,0.2,1) fill 250ms cubic-bezier(0.4,0,0.2,1);
+    transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) boreder 250ms cubic-bezier(0.4,0,0.2,1) fill 250ms cubic-bezier(0.4,0,0.2,1);
     display: inline-flex;
     background-color: var(--White-background);
     position: relative;
+    fill: transparent;
 }
 
 .checkbox-input:checked + .checkbox > .modal-span{
-    background-color: var(--Primary-Brand);
+    background-color: var(--Pressed-state);
+    border: none;
+    fill: var(--Light);
+    
 }
 
 
