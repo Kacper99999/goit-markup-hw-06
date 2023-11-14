@@ -805,7 +805,7 @@ img{
 .modal-svg-two{
     position: absolute;
     
-    fill:red;
+    fill:var(--Light);
 }
 
 .modal-input:focus{
