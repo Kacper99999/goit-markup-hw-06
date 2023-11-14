@@ -803,7 +803,6 @@ img{
 }
 
 .modal-svg-two{
-    position: absolute;
     
     fill:var(--Light);
 }
