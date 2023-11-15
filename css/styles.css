@@ -806,14 +806,12 @@ img{
     fill:var(--Light);
 }
 
-.modal-input:focus{
+.modal-input:focus + .modal-svg{
     border-color: var(--Primary-Brand);
+    fill: var(--Primary-Brand);
     
 }
 
-.modal-input:focus > .modal-svg{
-    fill: var(--Light);
-}
 
 .close-btn:hover{
     background-color: var(--Pressed-state);
