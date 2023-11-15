@@ -806,13 +806,12 @@ img{
     fill:var(--Light);
 }
 
-.modal-input:focus{
+.modal-form-two:focus{
     border-color: var(--Primary-Brand);
-    fill: var(--Primary-Brand);
     
 }
 
-.modal-input >.modal-svg:focus{
+.modal-form-two:focus > .modal-svg{
     fill:var(--Primary-Brand)
 }
 
