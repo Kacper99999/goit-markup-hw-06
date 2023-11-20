@@ -803,7 +803,7 @@ img{
 }
 
 .modal-svg-two{
-    fill:var(--Modal-background);
+    fill:var(--White-background);
 }
 
 .modal-input:focus{
