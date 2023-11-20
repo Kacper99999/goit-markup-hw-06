@@ -940,8 +940,8 @@ img{
 
 }
 
-.checkbox-input:checked  > .modal-span > .modal-svg-two{
-    fill:green;
+.checkbox-input:checked + .checkbox > .modal-span > .modal-svg-two{
+    fill:var(--Light);
 }
 
 .modal-link{
