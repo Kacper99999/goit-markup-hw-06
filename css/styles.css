@@ -803,7 +803,7 @@ img{
 }
 
 .modal-svg-two{
-    fill:var(--Light);
+    fill:var(--Modal-background);
 }
 
 .modal-input:focus{
@@ -854,7 +854,7 @@ img{
 
 .footer-button-svg{
     margin-left: 16px;
-    color: var(--White-background);
+    fill:var(--White-background);
 }
 
 .footer-text{
@@ -916,7 +916,7 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--Subtle-Text);
-    cursor: pointer;
+    cursor: pointer;;
     
 }
 
@@ -937,7 +937,7 @@ img{
 .checkbox-input:checked + .checkbox > .modal-span{
     background-color: var(--Pressed-state);
     border: none;
-    fill: var(--Light);
+    fill: red;
 
 }
 
