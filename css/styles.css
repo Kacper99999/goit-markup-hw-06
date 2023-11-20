@@ -941,7 +941,7 @@ img{
 }
 
 .checkbox-input:checked + .checkbox > .modal-span > .modal-svg-two{
-    fill:red;
+    fill:green;
 }
 
 .modal-link{
