@@ -937,8 +937,11 @@ img{
 .checkbox-input:checked + .checkbox > .modal-span{
     background-color: var(--Pressed-state);
     border: none;
-    fill: red;
 
+}
+
+.checkbox-input:checked + .checkbox > .modal-span > .modal-svg-two{
+    fill:red;
 }
 
 .modal-link{
