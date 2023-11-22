@@ -204,7 +204,6 @@ img{
     border: none;
     border-radius: 4px;
     margin:auto;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
 
 
@@ -642,7 +641,7 @@ img{
     fill: var(--Primary-Brand);
 }
 
-.modal-footer-input{
+.footer-input{
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -655,8 +654,14 @@ img{
     line-height: 1.5;
     letter-spacing: 0.04em;
     box-shadow:0px 4px 4px 0px rgba(0,0,0,0.15);
-    
+}
 
+.footer-input::placeholder{
+    color: var(--White-background);
+}
+
+.footer-input > ::placeholder{
+    color: var(--White-background);
 }
 
 .modal-checkbox{
@@ -712,6 +717,15 @@ img{
     text-align: center;
 }
 
+.checkbox-input:checked + .checkbox > .modal-span{
+    background-color: var(--Pressed-state);
+    border: none;
+
+}
+
+.checkbox-input:checked + .checkbox > .modal-span > .modal-svg-two{
+    fill:var(--Light);
+}
 
 /*------------------------------------------------*/
 
@@ -754,7 +768,7 @@ img{
     text-transform: uppercase;
     color:var(--Primary-Brand);
     text-decoration: none;
-    margin-right: 76px;;
+    margin-right: 76px;
 }
 
 .adres{
@@ -971,17 +985,6 @@ img{
     cursor: pointer;
     
 }
-
-.checkbox-input:checked + .checkbox > .modal-span{
-    background-color: var(--Pressed-state);
-    border: none;
-
-}
-
-.checkbox-input:checked + .checkbox > .modal-span > .modal-svg-two{
-    fill:var(--Light);
-}
-
 
 
 /*------------------------------------------------*/
