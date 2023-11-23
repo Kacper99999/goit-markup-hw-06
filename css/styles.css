@@ -966,11 +966,6 @@ img{
 }
 
 
-.form-footer > ::placeholder{
-    color: var(--White-background);
-}
-
-
 .checkbox-input{
     overflow: hidden;
     display: none;
